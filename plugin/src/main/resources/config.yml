@@ -1,0 +1,13 @@
+arenas:
+  arena-1:
+    max-players-per-team: 3
+    red-flag-location:
+      world: world
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    blue-flag-location:
+      world: world
+      x: 0.0
+      y: 0.0
+      z: 0.0

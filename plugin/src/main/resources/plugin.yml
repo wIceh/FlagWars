@@ -3,3 +3,6 @@ version: '${version}'
 main: me.wiceh.flagWars.server.FlagWarsLoader
 author: wIceh
 api-version: '1.21'
+commands:
+  flagwars:
+    usage: /flagwars
