@@ -20,6 +20,6 @@ tasks {
     }
 
     shadowJar {
-        archiveFileName = "#-${projectName}-${projectVersion}.jar"
+        archiveFileName = "${projectName}-${projectVersion}.jar"
     }
 }

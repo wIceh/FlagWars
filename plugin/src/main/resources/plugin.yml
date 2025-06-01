@@ -1,5 +1,5 @@
-name: test-module
+name: FlagWars
 version: '${version}'
-main: me.wiceh.test.server.TestModuleLoader
+main: me.wiceh.flagWars.server.FlagWarsLoader
+author: wIceh
 api-version: '1.21'
-depend: [Oxygen]
