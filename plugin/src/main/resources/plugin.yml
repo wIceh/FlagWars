@@ -1,0 +1,5 @@
+name: test-module
+version: '${version}'
+main: me.wiceh.test.server.TestModuleLoader
+api-version: '1.21'
+depend: [Oxygen]

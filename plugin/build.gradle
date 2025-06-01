@@ -1,0 +1,21 @@
+plugins {
+    id "com.gradleup.shadow" version "8.3.5"
+}
+
+version = projectVersion
+
+dependencies {
+    implementation(project(":api"))
+
+    // DEPENDENCIES
+}
+
+tasks {
+    assemble {
+        dependsOn(shadowJar)
+    }
+
+    shadowJar {
+        archiveFileName = "#-${projectName}-${projectVersion}.jar"
+    }
+}
